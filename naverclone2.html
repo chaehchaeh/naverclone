@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <!--메타태그는 표시되는 결과물에 영향보다 페이지가 사용자에게 서비스되었을 때 페이지의 품질을 높이기 위해 필요한 태그이다-->
+<meta charset="utf-8">
+<!--문자가 깨지는 것을 방지하기 위해서 문자인코딩에 대한 정보를 기입해야함-->
+<title>NAVER</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge; chrome=1">
+<!--크롬을 사용하는 유저에게 렌더링해줄 때(IE브라우저의 최신버전의 엔진을 사용하라는 뜻)-->
+<meta http-equiv="refresh" content="10">
+<!--10초마다 페이지를 새로고침하라는 뜻-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--뷰포트의 너비를 단말기너비에 맞추고, 초기배율을 1로 한다-->
+<!--뷰포트는 현재 화면에 보여지고 있는 영역을 의미한다 기기별로 뷰포트가 다르기 때문에 배율문제에 대응하기 위해필요-->
+<link rel="shortcut icon" type='image/x-icon' href="">
+
+</head>
+
+<body>
+    <div>
+        <h4>뉴스스탠드 바로가기주제별캐스트 바로가기
+        타임스퀘어 바로가기
+        쇼핑캐스트 바로가기
+        로그인 바로가기</h4>
+    </div>
+    <div>
+        <h1><a href="https://www.naver.com/">네이버</a></h1>
+    </div>
+    <div>
+        <h4>네이버를 시작페이지로 쥬니어네이버 해피빈</h4>
+    </div>
+    <div>
+        <fieldset>
+       <legend class="blind">검색</legend>
+       <select id="where" name="where" title="검색 범위 선택" class="blind">
+           <option value="nexearch" selected="selected">통합검색</option>
+           <option value="post">블로그</option>
+       </select>
+        <input type="text"><br>
+         <button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit" onclick="window.nclick(this,'sch.action','','',event);">
+        
+        </button>
+        </fieldset>
+    </div>
+
+    <div>
+        <a href="#" id="ke_kbd_btn" role="button" class="btn_keyboard" onclick="return false">
+        <span class="blind">한글 입력기</span>
+        <span class="ico_keyboard"></span>
+        </a>
+        <h4>한글입력기<br>자동완성 레이어</h4>
+    </div>
+
+    <div>
+        <ul>
+            <li><a href="https://nid.naver.com/nidlogin.login?url=http%3A%2F%2Fmail.naver.com%2F">메일</a></li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>지식in</li>
+            <li>쇼핑</li>
+            <li>쇼핑LIVE</li>
+            <li>Pay.</li>
+            <li>TV</li>
+        </ul>
+    </div>
+    
+    <div>
+        <ul>
+            <li>사전</li>
+            <li>뉴스</li>
+            <li>증권</li>
+            <li>부동산</li>
+            <li>지도</li>
+            <li>VIBE</li>
+            <li>책</li>
+            <li>웹툰</li>
+        </ul>
+        <h4>더보기<br>서비스 전체보기 메뉴설정</h4>
+    </div>
+
+    <div>
+       <h4> ㄱ-ㅁ<br>구독<br>날씨<br>네이버 MY CAR<br>네이버 게임<br>네이버 예약<br>네이버 프리미엄콘텐츠<br>네이버플러스 멤버십<br>뉴스<br>데이터랩<br>메모</h4>
+    </div>
+    <div>
+        ㅂ-ㅅ
+        <h4>밴드<br>부동산<br>스포츠<br>시리즈<br>시리즈온</h4>
+    </div>
+    <div>
+        ㅇ
+        <h4>엑스퍼트<br>영화<br>오디오클립<br>오피스<br>웨일<br>웹소설<br>웹툰<br>인플루언서 검색</h4>
+    </div>
+    <div>
+        ㅈ-ㅊ
+        <h4>주소록<br>증권<br>지도<br>지식백과<br>책</h4>
+    </div>
+    <div>
+        ㅋ-ㅎ
+        <h4>캘린더<br>클로바더빙<br>파파고<br>포스트<br>학술정보<br>항공권<br>호텔</h4>
+    </div>
+    <div>
+        <h4>A-Z<br>Keep<br>modoo!<br>MYBOX<br>V LIVE<br>VIBE</h4>
+    </div>
+    <div>
+        <h4>사전</h4>
+        <h4>사전<br>국어사전<br>영어/영영사전<br>일본어사전<br>중국어사전<br>한자사전<br>사전더보기</h4>
+    </div>
+    <div>
+        <h1>뉴스스탠드</h1>
+        <h4>연합뉴스<br>뉴스홈 연예 스포츠 지방선거<br>뉴스스탠드<br>구독한 언론사 전체언론사<br>리스트형 썸네일형 설정<br>이전</h4>
+<!--자바스크립트-->
+        <h4>
+        <img="경향신문"><br>
+        구독 기사보기<br>
+        <img="노컷뉴스"><br>
+        구독 기사보기<br>
+        <img="The코리아헤럴드"><br>
+        구독 기사보기<br>
+        <img="MBC"><br>
+        구독 기사보기<br>
+        <img="Newdaily"><br>
+        구독 기사보기<br>
+        <img="미디어오늘"><br>
+        구독 기사보기<br>
+        <img="SBS"><br>
+        구독 기사보기<br>
+        <img="미디어펜"><br>
+        구독 기사보기<br>
+        <img="이코노미뉴스"><br>
+        구독 기사보기<br>
+        <img="광주방송"><br>
+        구독 기사보기<br>
+        <img="맥스무비"><br>
+        구독 기사보기<br>
+        <img="TBC"><br>
+        구독 기사보기<br>
+        <img="디자인정글"><br>
+        구독 기사보기<br>
+        <img="데일리한국"><br>
+        구독 기사보기<br>
+        <img="SPOTVNews"><br>
+        구독 기사보기<br>
+        <img="시사위크"><br>
+        구독 기사보기<br>
+        <img="cnbnews"><br>
+        구독 기사보기<br>
+        <img="이코노믹리뷰"><br>
+        구독 기사보기<br>
+        <img="게임동아"><br>
+        구독 기사보기<br>
+        <img="코메디닷컴"><br>
+        구독 기사보기<br>
+        <img="SPOTVNews"><br>
+        구독 기사보기<br>
+        <img="조이뉴스24"><br>
+        구독 기사보기<br>
+        <img="소년한국일보"><br>
+        구독 기사보기<br>
+        <img="한국대학신문"><br>
+        구독 기사보기<br>
+        <img="채널예스"><br>
+        구독 기사보기<br>
+        </h4>
+    </div>
+    <div>
+        <h1>제8회 지방선거</h1>
+        <h4>투표일<br>
+        투표시간오전 6시 ~ 오후 6시 코로나 19확진 격리 유권자 : 오후6시반 ~ 7시반<br>
+        투표안내 투표소 찾기 후보자 정보</h4>
+    </div>
+    <div>
+        <h1>주제별 캐스트</h1>
+        <h4>오늘 읽을만한 글주제별로 분류된 다양한 글 모음<br>691 개의 글 관심주제 설정<br>이전 다음</h4>
+    </div>
+       
+    <div>
+       <h4><!--립스틱 사진-->_[BLACK WEEK] 15% 추가 할인 썸머 트래블 키트, 여름 필수템 모두 가져가세요</h4>
+       <h4>블랙 위크 단독 구성! 로즈 톤업 베이스 구매 시 + 증정품<br>
+            파우더 키스 리퀴드 립 컬러 듀오 사면 파우치를 드려요</h4>
+        <h4>맥 MAC<!--사진-->_[네이버 단독 혜택] 여름을 부탁해 미리 만나는 22SS 시즌오프! 추가 10% 할인</h4>
+        <h4>대표 아이콘백은 전 세계적으로 인기 있는 스테디셀러로<br>
+        가볍고 방수에 강하여 봄여름 시즌에 인기 있는 템입니다</h4>
+        <h4>테드베이커
+            <ul>
+                <li><h4><!--사진-->패션뷰티 각질 제거, 마모드 로즈 앰플</h4>
+                <h4>매끈한 피부결을 위해서 필수인 얼굴각질제거 물리적으로 젝하는 방법과 화학적으로 제거하는 방법 등 그 방법도 다양한데요, 저는 화학적 각질제거제 사용을 더 선호하는 편이에요. 최근에는 AHA나 BHA보다는 피부 자극을 최소화한 차세대 필링 성분인 PHA를 즐겨 사용하고 있어요! 마몽드에서도 PHA제품이 출시했다고 해서 바로 사용해 봤는데요, 매일 밤</h4></li>
+                <h4>1개월 전 슈비둡<><!--사진-->패션뷰티 에뛰드 메이크업 튜토리얼</</li>
+                    <h4></h4>
+                </li></h4>
+            </ul>
+        </h4>
+
+
+    </div>
+</body>
+
+</html>
